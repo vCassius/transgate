@@ -1,7 +1,7 @@
 {
   "IP":"0.0.0.0",  
   "Port":"7200", 
-  "DesSrvIP":"rr-bp1ne645nbd0x7j8r4o.mysql.rds.aliyuncs.com",
+  "DesSrvIP":"192.168.1.2",
   "DesSrvPort":"3306",
   "MaxUser":10,
   "RunModel":"wl"
