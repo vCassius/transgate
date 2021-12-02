@@ -14,10 +14,15 @@
 # logs
 *.log
 syslog/
+release/
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+*.zip
+*.rar
+*.7z
 # project
 TransGateLinux
-TransGate
+TransGateWin64.exe
+TransGateMac
 # Dependency directories (remove the comment below to include it)
 # vendor/

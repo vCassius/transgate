@@ -40,3 +40,26 @@ json数组,分隔符为,修改后必须重启网关生效
   "BanIPList":"192.168.10.255,192.168.10.254,127.0.0.1" 
 }
 ```
+#### 编译
+```shell
+git clone https://github.com/Cassuis/transgate.git
+cd transgate
+go mod tidy
+sh build-linux64.sh
+sh build-macos.sh
+sh build-win64.sh
+```
+#### 运行
+- Linux 
+  - 前台运行
+    ```shell
+    ./TransGate
+    ```
+  - 后台运行
+    ```shell
+    ./TransGate &
+    ```
+- Windows
+  双击运行,日志输出在syslog下
+- Mac
+  同Linux

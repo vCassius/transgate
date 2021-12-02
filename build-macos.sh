@@ -5,4 +5,4 @@ CGO_ENABLED=0 GOOS=darwin GOARCH=amd64 go build \
 -ldflags \
 "-X 'TransGate/version.BuildTime=${BUILD_TIME}' \
 -X TransGate/version.BuildGoVersion=${BUILD_GO_VERSION}" \
- -o TransGate main.go
+ -o TransGateMac main.go
